@@ -1,4 +1,4 @@
-![Lifecycle: Maturing](https://img.shields.io/badge/Lifecycle-Maturing-007EC6)
+![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)
 
 ## British Columbia Telemetry Warehouse
 
