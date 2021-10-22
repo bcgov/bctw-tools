@@ -1,0 +1,56 @@
+﻿Casylys,dbtable,dbfield,type,codeheader
+Region,animal,region,code,1
+Regional Contact,drop,,,
+Regional Review,drop,,,
+Regional Contact Comments,drop,,,
+Action Required (Y/N),drop,,,
+Action Details,drop,,,
+Project,drop,,,
+Species,animal,species,code,
+Caribou Ecotype,drop,,,
+Caribou Population Unit,animal,population_unit,code,139
+Management Area,drop,,,
+WLH ID,animal,wlh_id,,
+Animal ID,animal,animal_id,,
+Sex,animal,sex,code,181
+Life Stage,animal,life_stage,code,179
+Calf at Heel,animal,juvenile_at_heel,bool,
+Ear Tag Right,animal,ear_tag_right_id,,
+Ear Tag Left,animal,ear_tag_left_id,,
+Device ID,collar,device_id,,
+Radio Frequency,collar,frequency,,
+Re-capture,animal,recapture,bool,
+Reg_Key,drop,,,
+Trans-location,animal,translocation,,
+Collar Type,collar,device_type,bool,
+Collar Make,collar,device_make,code,4
+Collar Model,collar,device_model,,
+Satellite Network,collar,satellite_network,code,145
+Capture Date,animal,capture_date,,
+Capture Date Year,drop,,,
+Capture Date Month,drop,,,
+Capture UTM Zone,animal,capture_utm_zone,,
+Capture UTM Easting,animal,capture_utm_easting,,
+Capture UTM Northing,animal,capture_utm_northing,,
+Capture Latitude,animal,capture_latitude,,
+Capture Longitude,animal,capture_longitude,,
+Release Date,animal,release_date,,
+Animal Status,animal,animal_status,code,3
+Deployed,collar,device_deployment_status,code,178
+Collar Status Details,collar,device_status,code,144
+Deactivated?,collar,activation_status,bool,
+Collar Retrieved?,collar,retrieved,bool,
+Mortality Date,animal,mortality_date,,
+Malfunction Date,collar,malftunction_date,,
+Malfunction Type,collar,device_malfunction_type,code,180
+Retrieval Date,collar,retrieval_date,,
+Mortality UTM Zone,animal,mortality_utm_zone,,
+Mortality UTM Easting,animal,mortality_utm_easting,,
+Mortality UTM Northing,animal,mortality_utm_northing,,
+Mortality Latitude,animal,mortality_latitude,,
+Mortality Longitude,animal,mortality_longitude,,
+Max Transmission Date,drop,,,
+Previous Regional Comments,drop,,,
+Mortality Review,drop,,,
+Comments,drop,,,
+CID,drop,,,
