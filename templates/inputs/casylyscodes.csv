@@ -1,0 +1,136 @@
+﻿DataField,DataFieldDescription,CodeforinDataField,BCTWCode,Coded,CodeMeaning
+WLH ID,"A unique identifier assigned to an individual,  independent of possible changes in mark method used. This field is mandatory if there is telemetry data for the individual.  Field is numeric.
+
+",99-xxxx,99-xxxx,,This is a temporary WLH ID  for individuals that may have a previously assigned WLH ID.  The primary key WLH ID will then be assigned to the indiviudal.  
+Life Stage,,A,Adult,y,Adult
+Collar Status Details,,Active,Active,y,Collar/device is transmitting signals
+Animal Status,,Alive,Alive,y,Animal is alive
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Atlin,Atlin,y,
+Collar Make,The manufacturer of the collar/device,ATS,ATS,y,Advanced Telemetry Systems 
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Barkerville,Barkerville,y,
+Malfunction Type,,Both,Both,y,Both GPS and VHF 
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Burnt Pine,Burnt Pine,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Calendar,Calendar,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Carcross,Carcross,y,
+Region,,Cariboo,Cariboo,y,
+Species,,Caribou,M-RATA,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Central Purcells,Purcell Central,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Central Rockies,Central Rockies,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Central Selkirks,Central Selkirks,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Charlotte Alplands,Charlotte Alplands,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Chase,Chase,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Chinchaga,Chinchaga,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Columbia North,Columbia North,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Columbia South,Columbia South,y,
+Species,,Cougar,M-PUCO,y,
+Malfunction Date,Date collar/device confirmed as malfunction status,dd-mmm-yyyy,yyyy-mm-dd,,
+Max Transmission Date,"Last Transmission specific to the animal (filtered by Mortality Date, Malfunction Date, Collar Retrieval Date)",dd-mmm-yyyy,yyyy-mm-dd,,
+Mortality Date,Date animal died,dd-mmm-yyyy,yyyy-mm-dd,,
+Mortality Email Date,Date of the last Mortality Email sent by the Manufacturer,dd-mmm-yyyy,yyyy-mm-dd,,
+Release Date,"Date the animal was released following catpure.  Gernerally, an animal is captured, collared and released at the same location on the same date.  However, translocated animals will have a capture date that differs from the release date, with the release date correspodnign to release at the new destination, be it a hard release into caribou habitat or a soft release into a temporary holding pen.",dd-mmm-yyyy,yyyy-mm-dd,,
+Retrieval Date,Date collar/device retrieved from animal,dd-mmm-yyyy,yyyy-mm-dd,,"Collar Retrieval Date= The earliest date in which the 1) the collar/device was removed from animal, 2) the collar/device was retrieved from the field, or 3) the date an animal with an existing collar/device was recaptured for translocation."
+Capture Date,,dd-mmm-yyyy ,dd-mmm-yyyy,,Date animal was captured
+Deployed,,Deployed,Deployed,y,Collar is deployed on an animal.
+Malfunction Type,,Dropped,Dropped,y,Collar dropped by critter
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Edziza,Edziza,y,
+Sex,Animal gender,F,Female,y,female
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Finlay,Finlay,y,
+Collar Make,The manufacturer of the collar/device,Followit,Followit,y,Followit Sweden AB (formerly called Televilt)
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Frisby-Boulder,Frisby-Boulder,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Frog,Frog,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Gataga,Gataga,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),George Mountain,George Mtn,y,
+Satellite Network,"Satellite Network of GPS collar, Iridium or Globalstar. Globalstar collars ship ACTIVE from the manufacturing plant however, Iridium collars ship INACTIVE from the manufacturing plant and require the user to request activation",Globalstar,Globalstar,y,
+Collar Type,The type of device/collar used to mark the animal.,GPS,GPS,y,
+Malfunction Type,,GPS,GPS,y,GPS Only
+Satellite Network,"Satellite Network of GPS collar, Iridium or Globalstar. Globalstar collars ship ACTIVE from the manufacturing plant however, Iridium collars ship INACTIVE from the manufacturing plant and require the user to request activation",GPS,Blank,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Graham,Graham,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Groundhog,Groundhog,y,
+Satellite Network,"Satellite Network of GPS collar, Iridium or Globalstar. Globalstar collars ship ACTIVE from the manufacturing plant however, Iridium collars ship INACTIVE from the manufacturing plant and require the user to request activation",GSM,Blank,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Hart Ranges,Hart Ranges,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Horseranch,Horseranch,y,
+Satellite Network,"Satellite Network of GPS collar, Iridium or Globalstar. Globalstar collars ship ACTIVE from the manufacturing plant however, Iridium collars ship INACTIVE from the manufacturing plant and require the user to request activation",Iridium,Iridium,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Itcha-Ilgachuz,Itcha-Ilgachuz,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Kennedy Siding,Kennedy Siding,y,
+Region,,Kootenay,Kootenay,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Level-Kawdy,Level-Kawdy,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Liard Plateau,Liard Plateau,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Little Rancheria,Little Rancheria,y,
+Collar Make,The manufacturer of the collar/device,Lotek,Lotek,y,Lotek Wireless
+Sex,Animal gender,M,Male,y,male
+Life Stage,,MA,Adult,y,
+Collar Status Details,,Malfunction,Malfunction,y,"Collar/device is deployed on an animal and is no longer transmitting signals consistently and a malfunction status has been confirmed (e.g., hardware, software or battery failure)"
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Maxhamish,Maxhamish,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Moberly,Moberly,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Monashee,Monashee,y,
+Species,,Moose,M-ALAM,y,
+Animal Status,,Mortality,Mortality,y,Animal is a mortality
+Collar Status Details,,Mortality,Mortality,y,Collar/device transmitted mortality signal and animal status has been confirmed as mortality 
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Muskwa,Muskwa,y,
+Calf at Heel,,N,No,y,
+Recapture,Identifies whether the animal is a recapture.,N,FALSE,,This is the first time the animal has been captured.
+Reg Key,Identifies whether we have a telemetry key and are collecting data,N,FALSE,,The telemetry key is not registered and/or we're not collecting data
+Translocation,Identifies whether the animal is a translocation.,N,FALSE,,Animal is not being captured for translocation.
+Calf at Heel,,N/A,Unknown,y,
+Life Stage,,NA,Unknown,y,
+Sex,Animal gender,NA,Unclassified,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Narraway,Narraway,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Narrow Lake,Narrow Lake,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),North Cariboo,North Cariboo,y,
+Deployed,,Not Deployed,Not Deployed,y,Collar is not deployed on an animal.  
+Calf at Heel,,NR,Unknown,y,
+Life Stage,,NR,Unknown,y,Not Recorded
+Sex,Animal gender,NR,Unclassified,y,
+Life Stage,,OA,Adult,y,Old Adult
+Collar Status Details,,Offline,Offline,y,"Collar/device is deployed on an animal and is Offline.  Offline indicates the collar is no longer transmitting signals consistently, transmitting signals intermittently, or has reached natural end of life (i.e., battery depleted).  An offline collar is not considered collar malfunction or failure."
+Region,,Omineca,Omineca,y,
+Region,,Peace,Peace,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Pink Mountain,Pink Mountain,y,
+Collar Status Details,,Potential Malfunction,Potential Malfunction,y,Malfunction suspected but not yet  confirmed
+Animal Status,,Potential Mortality,Potential Mortality,y,Animal mortality suspected but not yet  confirmed
+Collar Status Details,,Potential Mortality,Potential Mortality,y,Mortality suspected but not yet  confirmed
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Purcells South,Purcells South,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Quintette,Quintette,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Rabbit,Rabbit,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Rainbows,Rainbows,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Redrock-Prairie Creek,Redrock-Prairie Creek,y,
+Life Stage,,SA,Subadult,y,Sub-Adult
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Scott,Scott,y,
+Region,,Skeena,Skeena,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Snake-Sahtaneh,Snake-Sahtaneh,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),South Selkirks,South Selkirks,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Spatsizi,Spatsizi,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Swan Lake,Swan Lake,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Takla,Takla,y,
+Collar Make,The manufacturer of the collar/device,Televilt,Televilt,y,Televilt/TVP Positioning AB
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Telkwa,Telkwa,y,
+Collar Make,The manufacturer of the collar/device,Telonics,Telonics,y,Telonics Inc.
+Region,,Thompson,Thompson,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Thutade,Thutade,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Tsenaglode,Tsenaglode,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Tweedsmuir,Tweedsmuir,y,
+Calf at Heel,,UNC,Unknown,y,
+Life Stage,,UNK,Unknown,y,
+Sex,Animal gender,UNK,Unclassified,y,
+Animal Status,,Unknown,Unknown,y,Status of animal is unknown due to collar malfunction or potential emigration
+Collar Status Details,,Unknown,Unknown,y,"Status of collar is unknown (i.e., collar/device is no longer being monitored)"
+Deployed,,Unknown,Unknown,y,"Status of collar is unknown (i.e., collar/device is no longer being monitored)"
+Malfunction Type,,Unknown,Unknown,y,Unknown how collar malfunctioned
+Collar Make,The manufacturer of the collar/device,Vectronics,Vectronic,y,Vectronic Aerospace
+Collar Type,The type of device/collar used to mark the animal.,VHF,VHF,y,
+Malfunction Type,Type of collar malfunction,VHF,VHF,y,VHF Only
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Wells Gray North,Wells Gray North,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Wells Gray South ,Wells Gray South,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Westside Fort Nelson,Westside Fort Nelson,y,
+Species,,Wolf,M-CALU,y,
+Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Wolverine,Wolverine,y,
+WLH ID,"A unique identifier assigned to an individual,  independent of possible changes in mark method used. This field is mandatory if there is telemetry data for the individual.  Field is numeric.
+
+",xx-xxxx,xx-xxxx,,"The ""xx-xxxx"" is a 2 digit code for the year the biological sample kit was created for the capture event, followed by the numberic idnetifier of that indiviudal (eg, 18-1384)"
+Calf at Heel,,Y,Yes,y,
+Deactivated,Is the collar deactivated from the manufacturer,Y,TRUE,,"Y = Yes, the collar has been deactivated by the manufacturer"
+Life Stage,,Y,Juvenile,y,Yearling
+Recapture,Identifies whether the animal is a recapture.,Y,TRUE,,This animal is a recapture (i.e. has been captured and collared previously)
+Reg Key,Identifies whether we have a telemetry key and are collecting data,Y,TRUE,,The telemetry key is registered and/or we're collecting data
+Retrieved,Collar/device retrieved from animal,Y,TRUE,y,"Collar/device retrieved from an alive animal (ex. animal release, remote collar blow-off, collar being replaced with a different collar)  "
+Translocation,Identifies whether the animal is a translocation.,Y,TRUE,,Animal is being captured for translocation and will be released at a new destination
