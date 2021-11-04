@@ -14,15 +14,15 @@ WLH ID,animal,wlh_id,,
 Animal ID,animal,animal_id,,
 Sex,animal,sex,code,181
 Life Stage,animal,life_stage,code,179
-Calf at Heel,animal,juvenile_at_heel,bool,177
+Calf at Heel,animal,juvenile_at_heel,code,177
 Ear Tag Right,animal,ear_tag_right_id,,
 Ear Tag Left,animal,ear_tag_left_id,,
 Device ID,collar,device_id,,
 Radio Frequency,collar,frequency,,
 Re-capture,animal,recapture,bool,
 Reg_Key,drop,,,
-Trans-location,animal,translocation,,
-Collar Type,collar,device_type,bool,147
+Trans-location,animal,translocation,bool,
+Collar Type,collar,device_type,code,147
 Collar Make,collar,device_make,code,4
 Collar Model,collar,device_model,,
 Satellite Network,collar,satellite_network,code,145
