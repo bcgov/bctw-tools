@@ -1,14 +1,14 @@
 select
-	a.critter_id ,
-	c.collar_id,
-	a.capture_date as attachment_start, 
+	a.critter_id as critter_id,
+	c.collar_id as collar_id,
+	c.offline_date as attachment_end,
+	a.capture_date as attachment_start,
 	a.capture_date as valid_from,
-	a.mortality_date as attachment_end,
-	0 as created_by_user_id
-	
+	c.offline_date as valid_to
 from
-	animal a,
+	animal a ,
 	collar c
 where
-	(a.created_at::date = '2021-11-15'
-		and a.device_id = c.device_id )
+	a.device_id = c.device_id 
+		
+		
