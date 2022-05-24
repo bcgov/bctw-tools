@@ -1,7 +1,4 @@
 
-scripts/user_tools/dfanimal.csv
-templates/outputs/dfanimal.csv
+
 *.csv
-templates/outputs/BCTW_bulk_import_animal_template.csv
-*.ini
 *.ini
