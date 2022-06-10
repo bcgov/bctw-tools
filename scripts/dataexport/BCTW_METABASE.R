@@ -7,7 +7,7 @@ library(tidyverse)
 library(sf)
 library(tmap)
 
-credentials <- read_csv("//spatialfiles.bcgov/work/wlap/kam/Workarea/BErnst/Caribou/MB_Credentials.csv")
+credentials <- read_csv("")
 
 token_data <- POST(
   "https://metabase-0dff19-tools-tools.apps.silver.devops.gov.bc.ca/api/session",
