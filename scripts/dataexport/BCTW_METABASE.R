@@ -69,7 +69,7 @@ HERD_BOUND <- st_read("//spatialfiles.bcgov/work/wlap/kam/Workarea/BErnst/Caribo
 
 
 ###make an interactive map
-tmap_mode("plot")
+tmap_mode("view")
 tmap_options(basemaps = c("OpenTopoMap", "Esri.WorldImagery"))
 
 tm_shape(HERD_BOUND %>% filter(ECO_GROUP=="Southern Mountain - Southern Group"))+
