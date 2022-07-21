@@ -116,7 +116,7 @@ Animal Status,,Unknown,Unknown,y,Status of animal is unknown due to collar malfu
 Collar Status Details,,Unknown,Unknown,y,"Status of collar is unknown (i.e., collar/device is no longer being monitored)"
 Deployed,,Unknown,Unknown,y,"Status of collar is unknown (i.e., collar/device is no longer being monitored)"
 Malfunction Type,,Unknown,Unknown,y,Unknown how collar malfunctioned
-Collar Make,The manufacturer of the collar/device,Vectronics,Vectronic,y,Vectronic Aerospace
+Collar Make,The manufacturer of the collar/device,Vectronic,Vectronic,y,Vectronic Aerospace
 Collar Type,The type of device/collar used to mark the animal.,VHF,VHF,y,
 Malfunction Type,Type of collar malfunction,VHF,VHF,y,VHF Only
 Caribou Population Unit,CARIBOU_POPULATION_UNIT_NAME is the name of the caribou population (herd),Wells Gray North,Wells Gray North,y,
